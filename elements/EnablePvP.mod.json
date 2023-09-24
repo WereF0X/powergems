@@ -1,0 +1,9 @@
+{
+  "_fv": 47,
+  "_type": "command",
+  "definition": {
+    "commandName": "enablepvp",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"136\" y=\"66\"><next><block type=\"call_procedure\"><field name=\"procedure\">Pvp</field></block></next></block></xml>"
+  }
+}

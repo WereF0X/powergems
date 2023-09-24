@@ -1,0 +1,45 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "juju_shortbow",
+    "customModelName": "Normal",
+    "name": "Earth Bow",
+    "specialInfo": [
+      "Given by the Earth Gem Tier II"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:EarthDart"
+    },
+    "shootConstantly": false,
+    "usageCount": 64,
+    "actionSound": {
+      "value": "record.pigstep"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 1.0,
+    "onRangedItemUsed": {
+      "name": "EarthBowRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 6.5,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:EarthDart"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "EarthDartLivingEntityIsHitWithItem"
+    }
+  }
+}

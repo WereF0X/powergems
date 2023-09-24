@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "gems_fabric_mod:strenghtgem_2"
+  },
+  "addition": {
+    "item": "gems_fabric_mod:gemupgradertier_3"
+  },
+  "result": {
+    "item": "gems_fabric_mod:strenght_gem_3"
+  }
+}

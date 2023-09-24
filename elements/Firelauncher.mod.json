@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "2",
+    "customModelName": "Normal",
+    "name": "Fire Launcher",
+    "specialInfo": [
+      "Given by the Fire Gem Stage II"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "shootConstantly": false,
+    "usageCount": 64,
+    "actionSound": {
+      "value": "entity.enderdragon_fireball.explode"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 1.0,
+    "onRangedItemUsed": {
+      "name": "FirelauncherRangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "FirelauncherProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "FirelauncherProjectileHitsLivingEntity"
+    }
+  }
+}

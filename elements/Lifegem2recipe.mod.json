@@ -1,0 +1,25 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:Lifegem"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:GemUpgrader"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Lifegem2"
+    },
+    "name": "lifegem_2recipe",
+    "namespace": "mod"
+  }
+}

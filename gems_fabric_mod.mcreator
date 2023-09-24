@@ -1,0 +1,3765 @@
+{
+  "mod_elements": [
+    {
+      "name": "FireGemRightclicked",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_gem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/FireGemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireGem",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/FireGemItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/fire_gem.json"
+        ]
+      }
+    },
+    {
+      "name": "Firegemrecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firegemrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/firegemrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LifegemRightclicked",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lifegem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/LifegemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lifegem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lifegem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/LifegemItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/lifegem.json"
+        ]
+      }
+    },
+    {
+      "name": "GemCrystal",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/GemCrystalItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/gem_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "GemCrystalRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_crystal_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/gem_crystal_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LifeGemRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_gem_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/life_gem_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThePowerOfTheGods",
+      "type": "achievement",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_power_of_the_gods",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/the_power_of_the_gods.json"
+        ]
+      }
+    },
+    {
+      "name": "EarthGemRightclicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_gem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/EarthGemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EarthGem",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strenght_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/strenght_gem.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/EarthGemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EarthGemRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_gem_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/earth_gem_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Gems",
+      "type": "tab",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gems",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "EarthgemsRightclicked",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earthgems_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/EarthgemsRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Earthgems",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earthgems",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/EarthgemsItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/earthgems.json"
+        ]
+      }
+    },
+    {
+      "name": "Earthgemrecipe2",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earthgemrecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/earthgemrecipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteGemSword",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_gem_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/NetheriteGemSwordItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/netherite_gem_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheritegemRightclicked",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritegem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/NetheritegemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Netheritegem",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritegem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/netheritegem.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/NetheritegemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sculkarmor",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/sculkarmor_boots.json",
+          "src/main/resources/assets/gems_fabric_mod/models/item/sculkarmor_helmet.json",
+          "src/main/resources/assets/gems_fabric_mod/models/item/sculkarmor_leggings.json",
+          "src/main/resources/assets/gems_fabric_mod/models/item/sculkarmor_chestplate.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/SculkarmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SculkGemRightclicked",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/SculkGemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkGem",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/sculk_gem.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/SculkGemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GemUpgrader",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_upgrader",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/GemUpgraderItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/gem_upgrader.json"
+        ]
+      }
+    },
+    {
+      "name": "Gemupgraderrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemupgraderrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/gemupgraderrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Firelauncher",
+      "type": "rangeditem",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firelauncher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/FirelauncherItem.java",
+          "src/main/java/net/mcreator/gemsfabricmod/entity/FirelauncherEntity.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/firelauncher.json"
+        ]
+      }
+    },
+    {
+      "name": "FireGem2Rightclicked",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_gem_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/FireGem2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireGem2",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_gem_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/fire_gem_2.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/FireGem2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Firegem2recipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firegem_2recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/firegem_2recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nethgemrecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethgemrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/nethgemrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Strenghtgem2Rightclicked",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strenghtgem_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Strenghtgem2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Strenghtgem2",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strenghtgem_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/strenghtgem_2.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/Strenghtgem2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Strenghtgem2recipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strenghtgem_2recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/strenghtgem_2recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sculkgemrecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkgemrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/sculkgemrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HeadacheActiveTickCondition",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "headache_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/HeadacheActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Headache",
+      "type": "potioneffect",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "headache",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/potion/HeadacheMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "EarthDartLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_dart_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/EarthDartLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EarthDart",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_dart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/earth_dart.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/EarthDartItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EarthBow",
+      "type": "rangeditem",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/EarthBowItem.java",
+          "src/main/java/net/mcreator/gemsfabricmod/entity/EarthBowEntity.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/earth_bow.json"
+        ]
+      }
+    },
+    {
+      "name": "EarthGem2Rightclicked",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_gem_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/EarthGem2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EarthGem2",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_gem_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/earth_gem_2.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/EarthGem2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Earthgem2recipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earthgem_2recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/earthgem_2recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Gemupgradertier3",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemupgradertier_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/Gemupgradertier3Item.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/gemupgradertier_3.json"
+        ]
+      }
+    },
+    {
+      "name": "StrenghtGem3",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strenght_gem_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/strenght_gem_3.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/StrenghtGem3Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Gemupgrader3recipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemupgrader_3recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/recipes/brewing/Gemupgrader3recipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Strenght3recipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strenght_3recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/strenght_3recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StrenghtGem3Rightclicked",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strenght_gem_3_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/StrenghtGem3RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteresActiveTickCondition",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheriteres_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/NetheriteresActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Netheriteres",
+      "type": "potioneffect",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheriteres",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/potion/NetheriteresMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Nethgem2Rightclicked",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethgem_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Nethgem2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nethgem2",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethgem_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/nethgem_2.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/Nethgem2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Nethgem2reciope",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethgem_2reciope",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/nethgem_2reciope.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteresEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheriteres_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/NetheriteresEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Upgradermultiplier",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgradermultiplier",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/upgradermultiplier.json"
+        ]
+      }
+    },
+    {
+      "name": "Upgrader3multiplier",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrader_3multiplier",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/upgrader_3multiplier.json"
+        ]
+      }
+    },
+    {
+      "name": "Guifire",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guifire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/GuifireProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guilife",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guilife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/GuilifeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guistrenght",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guistrenght",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/GuistrenghtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guiearth",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guiearth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/GuiearthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guinether",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guinether",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/GuinetherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guisculk",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guisculk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/GuisculkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SelectaGem",
+      "type": "gui",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selecta_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/world/inventory/SelectaGemMenu.java",
+          "src/main/java/net/mcreator/gemsfabricmod/client/gui/SelectaGemScreen.java",
+          "src/main/java/net/mcreator/gemsfabricmod/network/SelectaGemButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "YOnKeyPressed",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "y_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/YOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Y",
+      "type": "keybind",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "y",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/network/YMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "HeadacheEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "headache_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/HeadacheEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Recipes",
+      "type": "gui",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/network/RecipesButtonMessage.java",
+          "src/main/java/net/mcreator/gemsfabricmod/world/inventory/RecipesMenu.java",
+          "src/main/java/net/mcreator/gemsfabricmod/client/gui/RecipesScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Recipes2",
+      "type": "gui",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/client/gui/Recipes2Screen.java",
+          "src/main/java/net/mcreator/gemsfabricmod/world/inventory/Recipes2Menu.java",
+          "src/main/java/net/mcreator/gemsfabricmod/network/Recipes2ButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Recipes3",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/client/gui/Recipes3Screen.java",
+          "src/main/java/net/mcreator/gemsfabricmod/network/Recipes3ButtonMessage.java",
+          "src/main/java/net/mcreator/gemsfabricmod/world/inventory/Recipes3Menu.java"
+        ]
+      }
+    },
+    {
+      "name": "Recipes4",
+      "type": "gui",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/world/inventory/Recipes4Menu.java",
+          "src/main/java/net/mcreator/gemsfabricmod/network/Recipes4ButtonMessage.java",
+          "src/main/java/net/mcreator/gemsfabricmod/client/gui/Recipes4Screen.java"
+        ]
+      }
+    },
+    {
+      "name": "Procedure1",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Procedure1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Procedure2",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Procedure2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Proc3",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proc_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Proc3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Proc4",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proc_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Proc4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Upgradert",
+      "type": "loottable",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgradert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/loot_tables/chests/upgrader.json"
+        ]
+      }
+    },
+    {
+      "name": "FlightGemRightclicked",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flight_gem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/FlightGemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lifegem2Rightclicked",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lifegem_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Lifegem2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lifegem2",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lifegem_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/Lifegem2Item.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/lifegem_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Lifegem2recipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lifegem_2recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/lifegem_2recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FireGemItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_gem_item_is_dropped_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/FireGemItemIsDroppedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheNewGeneration",
+      "type": "achievement",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_new_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/the_new_generation.json"
+        ]
+      }
+    },
+    {
+      "name": "Maybe",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maybe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/MaybeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Maybe2",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maybe_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Maybe2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Maybe3",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maybe_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Maybe3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Maybe4",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maybe_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Maybe4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mayb5",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mayb_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Mayb5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Maybe6",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maybe_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Maybe6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gemloottable",
+      "type": "loottable",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemloottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/loot_tables/entities/gemloottable.json"
+        ]
+      }
+    },
+    {
+      "name": "TradeToken",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/TradeTokenItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/trade_token.json"
+        ]
+      }
+    },
+    {
+      "name": "Gemtrade",
+      "type": "villagertrade",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemtrade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Rangedtokenrecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rangedtokenrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/rangedtokenrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Recipes5",
+      "type": "gui",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/client/gui/Recipes5Screen.java",
+          "src/main/java/net/mcreator/gemsfabricmod/network/Recipes5ButtonMessage.java",
+          "src/main/java/net/mcreator/gemsfabricmod/world/inventory/Recipes5Menu.java"
+        ]
+      }
+    },
+    {
+      "name": "Recipes6",
+      "type": "gui",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/world/inventory/Recipes6Menu.java",
+          "src/main/java/net/mcreator/gemsfabricmod/client/gui/Recipes6Screen.java"
+        ]
+      }
+    },
+    {
+      "name": "Proc5",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proc_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Proc5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Proc6",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proc_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Proc6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MysteriousgemRightclicked",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysteriousgem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/MysteriousgemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mysteriousgem",
+      "type": "item",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysteriousgem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/mysteriousgem.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/MysteriousgemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MysteriusGem",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterius_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/MysteriusGemItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/mysterius_gem.json"
+        ]
+      }
+    },
+    {
+      "name": "MysteriusGemRightclicked",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterius_gem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/MysteriusGemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MysteriosGem",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterios_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/mysterios_gem.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/MysteriosGemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MysteriosGemRightclicked",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterios_gem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/MysteriosGemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mysterousgem",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterousgem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/MysterousgemItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/mysterousgem.json"
+        ]
+      }
+    },
+    {
+      "name": "MysterousgemRightclicked",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterousgem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/MysterousgemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Misteriousgem",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "misteriousgem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/MisteriousgemItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/misteriousgem.json"
+        ]
+      }
+    },
+    {
+      "name": "MisteriousgemRightclicked",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "misteriousgem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/MisteriousgemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mystiriousgem",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystiriousgem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/MystiriousgemItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/mystiriousgem.json"
+        ]
+      }
+    },
+    {
+      "name": "MystiriousgemRightclicked",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystiriousgem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/MystiriousgemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoNetherite",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_netherite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/NoNetheriteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReviveBeacon",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive_beacon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/revive_beacon.json",
+          "src/main/resources/assets/gems_fabric_mod/models/block/revive_beacon.json",
+          "src/main/resources/assets/gems_fabric_mod/blockstates/revive_beacon.json",
+          "src/main/java/net/mcreator/gemsfabricmod/block/ReviveBeaconBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Revive1",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Revive1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Revive",
+      "type": "gui",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/client/gui/ReviveScreen.java",
+          "src/main/java/net/mcreator/gemsfabricmod/world/inventory/ReviveMenu.java",
+          "src/main/java/net/mcreator/gemsfabricmod/network/ReviveButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ReviveBeaconBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive_beacon_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ReviveBeaconBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crystal",
+      "type": "loottable",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/loot_tables/entities/crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "Reviveb",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reviveb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/recipes/reviveb.json"
+        ]
+      }
+    },
+    {
+      "name": "GetYourFriendsBack",
+      "type": "achievement",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_your_friends_back",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/get_your_friends_back.json"
+        ]
+      }
+    },
+    {
+      "name": "Revive2",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Revive2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Revive3",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Revive3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Revive4",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Revive4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Revive5",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Revive5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Revive6",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revive_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Revive6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "R7",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/R7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "R8",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/R8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "R9",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/R9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Revivetotem",
+      "type": "item",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "revivetotem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gems_fabric_mod/models/item/revivetotem.json",
+          "src/main/java/net/mcreator/gemsfabricmod/item/RevivetotemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "R10",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/R10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kill",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/KillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "R11",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/R11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tellraw",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tellraw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/TellrawProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "R12",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_12",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/R12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "R13",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_13",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/R13Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "R14",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_14",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/R14Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Startprocedure",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "startprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/StartprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Start",
+      "type": "command",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/command/StartCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Gay",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/GayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Move",
+      "type": "command",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "move",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/command/MoveCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Pvp",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pvp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/PvpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnablePvP",
+      "type": "command",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enable_pv_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/command/EnablePvPCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Reload",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reload",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ReloadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reloading",
+      "type": "command",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reloading",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/command/ReloadingCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "EarthBowRangedItemUsed",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_bow_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/EarthBowRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FirelauncherRangedItemUsed",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firelauncher_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/FirelauncherRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lock",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/LockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fire",
+      "type": "achievement",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/fire.json"
+        ]
+      }
+    },
+    {
+      "name": "Life",
+      "type": "achievement",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/life.json"
+        ]
+      }
+    },
+    {
+      "name": "Strength",
+      "type": "achievement",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/strength.json"
+        ]
+      }
+    },
+    {
+      "name": "Earth",
+      "type": "achievement",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/earth.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherite",
+      "type": "achievement",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/netherite.json"
+        ]
+      }
+    },
+    {
+      "name": "Sculk",
+      "type": "achievement",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/sculk.json"
+        ]
+      }
+    },
+    {
+      "name": "Locklife",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locklife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/LocklifeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lockstre",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lockstre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/LockstreProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lockea",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lockea",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/LockeaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lockneth",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lockneth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/LocknethProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Locksculk",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locksculk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/LocksculkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Choosefire",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choosefire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ChoosefireProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChangeGem",
+      "type": "gui",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "change_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/client/gui/ChangeGemScreen.java",
+          "src/main/java/net/mcreator/gemsfabricmod/world/inventory/ChangeGemMenu.java",
+          "src/main/java/net/mcreator/gemsfabricmod/network/ChangeGemButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Openchoose",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "openchoose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/OpenchooseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fire2",
+      "type": "achievement",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/fire_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Life2",
+      "type": "achievement",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/life_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Strength2",
+      "type": "achievement",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/strength_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Earth2",
+      "type": "achievement",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/earth_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Neth2",
+      "type": "achievement",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neth_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/neth_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Strength3",
+      "type": "achievement",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/strength_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Chooselife",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chooselife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ChooselifeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Choosestrength",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choosestrength",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ChoosestrengthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Choosearth",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choosearth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ChoosearthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chooseneth",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chooseneth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ChoosenethProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Choosesculk",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choosesculk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ChoosesculkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blackist",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackist",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/BlackistProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Despawn",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/DespawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blacklist",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blacklist",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/BlacklistProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Delete",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "delete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/DeleteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Advancement",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/AdvancementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireGemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_gem_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/FireGemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FirelauncherProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firelauncher_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/FirelauncherProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FirelauncherProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firelauncher_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/FirelauncherProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Removeextra",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "removeextra",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/RemoveextraProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Removeadv",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "removeadv",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/RemoveadvProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Removelife",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "removelife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/RemovelifeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Earthremove",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earthremove",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/EarthremoveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Strengthrem",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strengthrem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/StrengthremProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Netherremove",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherremove",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/NetherremoveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sculkrem",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkrem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/SculkremProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fire2re",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_2re",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Fire2reProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Life2r",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_2r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Life2rProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Earth2r",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_2r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Earth2rProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Strength2r",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_2r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Strength2rProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nether2r",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_2r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Nether2rProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Strength3r",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_3r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/Strength3rProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nocrystal",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nocrystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/NocrystalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.gems_fabric_mod.revive.button_xrvb": "xrvb",
+      "item.gems_fabric_mod.fire_gem_2": "Fire Gem ",
+      "gui.gems_fabric_mod.selecta_gem.button_earth_gem": "Earth Gem",
+      "gui.gems_fabric_mod.recipes_3.label_recipes": "RECIPES",
+      "gui.gems_fabric_mod.revive.button_carlwheezer": "CarlWheezer__",
+      "gui.gems_fabric_mod.revive.button_toastedcookie": "_Toastedcookie_",
+      "gui.gems_fabric_mod.revive.button_remn_rs": "Remn_RS",
+      "advancements.strength.descr": "Strength Gem!",
+      "gui.gems_fabric_mod.selecta_gem.button_life_gem": "Life Gem",
+      "item.gems_fabric_mod.earth_bow": "Earth Bow",
+      "item.gems_fabric_mod.lifegem_2": "Life Gem",
+      "advancements.the_new_generation.descr": "Obtain a Tier II Gem Upgrader",
+      "item.gems_fabric_mod.fire_gem": "Fire Gem",
+      "advancements.strength_3.title": "Strength!",
+      "item.gems_fabric_mod.nethgem_2": "Netherite Gem",
+      "advancements.the_power_of_the_gods.descr": "Obtain your first Gem Crystal",
+      "gui.gems_fabric_mod.recipes.button_next": "Next",
+      "item.gems_fabric_mod.earthgems": "Earth Gem",
+      "advancements.life_2.title": "Life!",
+      "item.gems_fabric_mod.strenghtgem_2": "Strength Gem",
+      "key.gems_fabric_mod.y": "Gem GUI",
+      "gui.gems_fabric_mod.revive.button_qv1d": "qv1d",
+      "item.gems_fabric_mod.trade_token": "Trade Token",
+      "item.gems_fabric_mod.sculkarmor_chestplate": "Sculk Chestplate",
+      "gui.gems_fabric_mod.selecta_gem.button_fire_gem": "Fire Gem",
+      "gui.gems_fabric_mod.change_gem.button_sculk_gem": "Sculk Gem",
+      "block.gems_fabric_mod.revive_beacon": "Revive Beacon",
+      "item.gems_fabric_mod.strenght_gem": "Strength Gem",
+      "gui.gems_fabric_mod.revive.label_revive_players": "REVIVE PLAYERS",
+      "advancements.get_your_friends_back.descr": "Use a Revive Totem",
+      "item.gems_fabric_mod.strenght_gem_3": "Strength Gem ",
+      "advancements.life.descr": "Life Gem!",
+      "advancements.life.title": "Life!",
+      "advancements.fire_2.title": "Fire!",
+      "gui.gems_fabric_mod.recipes_5.label_recipes": "Recipes",
+      "item.gems_fabric_mod.misteriousgem": "Mysterious Gem",
+      "advancements.neth_2.descr": "Netherite Gem!",
+      "gui.gems_fabric_mod.recipes_6.label_recipes": "Recipes",
+      "item.gems_fabric_mod.sculkarmor_leggings": "Sculk Leggings",
+      "advancements.netherite.title": "Netherite!",
+      "gui.gems_fabric_mod.selecta_gem.button_sculk_gem": "Sculk Gem",
+      "advancements.earth_2.descr": "Earth Gem!",
+      "gui.gems_fabric_mod.recipes_4.label_recipes": "RECIPES",
+      "gui.gems_fabric_mod.selecta_gem.button_next": "Next",
+      "item.gems_fabric_mod.mysteriousgem": "Mysterious Gem",
+      "gui.gems_fabric_mod.revive.button_gabino12": "gabino12",
+      "advancements.life_2.descr": "Life Gem!",
+      "effect.gems_fabric_mod.headache": "Headache",
+      "gui.gems_fabric_mod.recipes_5.button_next": "Next",
+      "gui.gems_fabric_mod.recipes_4.button_next": "Next",
+      "item.gems_fabric_mod.netherite_gem_sword": "Netherite Gem Sword",
+      "gui.gems_fabric_mod.revive.button_zecrom5599": "Zecrom5599",
+      "gui.gems_fabric_mod.change_gem.button_fire_gem": "Fire Gem",
+      "advancements.strength_2.descr": "Strength Gem!",
+      "item.gems_fabric_mod.firelauncher": "Fire Launcher",
+      "itemGroup.gems_fabric_mod.gems": "Gems",
+      "item.gems_fabric_mod.revivetotem": "Revive Totem",
+      "item.gems_fabric_mod.sculkarmor_boots": "Sculk Boots",
+      "item.gems_fabric_mod.lifegem": "Life Gem",
+      "item.gems_fabric_mod.sculk_gem": "Sculk Gem",
+      "advancements.strength.title": "Strength!",
+      "advancements.the_new_generation.title": "The New Generation",
+      "gui.gems_fabric_mod.revive.button_wiitthered": "wiitthered",
+      "item.gems_fabric_mod.gem_crystal": "Gem Crystal",
+      "item.gems_fabric_mod.mysterousgem": "Mysterious Gem",
+      "advancements.strength_2.title": "Strength!",
+      "item.gems_fabric_mod.mystiriousgem": "Mysterious Gem",
+      "gui.gems_fabric_mod.revive.button_clownplin": "Clownplin",
+      "gui.gems_fabric_mod.recipes_2.button_next": "Next",
+      "itemGroup.tabgems": "Gems",
+      "gui.gems_fabric_mod.recipes_3.button_next": "Next",
+      "item.gems_fabric_mod.sculkarmor_helmet": "Sculk Helmet",
+      "gui.gems_fabric_mod.selecta_gem.button_netherite_gem": "Netherite Gem",
+      "advancements.fire.title": "Fire!",
+      "advancements.strength_3.descr": "Strength Gem!",
+      "gui.gems_fabric_mod.revive.button_koolvillager": "Remn_RS",
+      "gui.gems_fabric_mod.change_gem.label_choose_your_gem": "Choose your Gem",
+      "item_group.gems_fabric_mod.gems": "Gems",
+      "gui.gems_fabric_mod.change_gem.button_strength_gem": "Strength Gem",
+      "item.gems_fabric_mod.earth_dart": "Earth Dart",
+      "gui.gems_fabric_mod.revive.button_xselite": "XsElite",
+      "item.gems_fabric_mod.gem_upgrader": "Gem Upgrader",
+      "gui.gems_fabric_mod.recipes_2.label_recipes": "RECIPES",
+      "gui.gems_fabric_mod.change_gem.button_netherite_gem": "Netherite Gem",
+      "item.gems_fabric_mod.earth_gem_2": "Earth Gem ",
+      "advancements.earth.descr": "Earth Gem!",
+      "advancements.sculk.title": "Sculk!",
+      "gui.gems_fabric_mod.recipes.label_recipes": "RECIPES",
+      "gui.gems_fabric_mod.revive.button_cryokinetica": "cryokinetica",
+      "gui.gems_fabric_mod.change_gem.button_life_gem": "Life Gem",
+      "gui.gems_fabric_mod.change_gem.button_earth_gem": "Earth Gem",
+      "item.gems_fabric_mod.mysterius_gem": "Mysterious Gem",
+      "item.gems_fabric_mod.gemupgradertier_3": "Gem Upgrader",
+      "advancements.sculk.descr": "Sculk Gem!",
+      "gui.gems_fabric_mod.selecta_gem.label_select_a_gem": "SELECT A GEM",
+      "item.gems_fabric_mod.netheritegem": "Netherite Gem",
+      "advancements.fire_2.descr": "Fire Gem! [Tier 2]",
+      "item.gems_fabric_mod.mysterios_gem": "Mysterious Gem",
+      "advancements.fire.descr": "Fire Gem!",
+      "advancements.netherite.descr": "Netherite Gem!",
+      "effect.gems_fabric_mod.netheriteres": "Netherite Resistance",
+      "advancements.neth_2.title": "Netherite!",
+      "advancements.earth_2.title": "Earth!",
+      "gui.gems_fabric_mod.revive.button_the_weref0x": "The_WereF0X",
+      "advancements.the_power_of_the_gods.title": "SuperPowers",
+      "gui.gems_fabric_mod.selecta_gem.button_strenght_gem": "Strenght Gem",
+      "gui.gems_fabric_mod.revive.button_crazycraft186": "CrazyCraft186",
+      "advancements.get_your_friends_back.title": "Get Your Friends Back",
+      "gui.gems_fabric_mod.revive.button_zonally": "Zonally",
+      "advancements.earth.title": "Earth!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gems_fabric_mod",
+    "modName": "PowerGems SMP",
+    "version": "2.4 - Abilities Unlocked",
+    "description": "This is a Bliss Smp Inspiration Mod that adds 6 Gems with unique powers to Minecraft.",
+    "author": "The_WereF0X",
+    "websiteURL": "https://discord.gg/sYaGxN68Bt",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "modPicture": "cr",
+    "requiredMods": [],
+    "dependencies": [
+      "End_Fight_DLC"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "The_WereF0X",
+    "modElementsPackage": "net.mcreator.gemsfabricmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

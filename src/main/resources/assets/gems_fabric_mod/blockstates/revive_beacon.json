@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gems_fabric_mod:block/revive_beacon"
+    }
+  }
+}

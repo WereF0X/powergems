@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "gems_fabric_mod:netheritegem"
+    },
+    "title": {
+      "translate": "advancements.neth_2.title"
+    },
+    "description": {
+      "translate": "advancements.neth_2.descr"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "neth_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gems_fabric_mod:nethgem_2"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "gems_fabric_mod:netherite"
+}

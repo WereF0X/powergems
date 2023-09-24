@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gems_fabric_mod:item/block"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "gems_fabric_mod:netheritegem"
+  },
+  "addition": {
+    "item": "gems_fabric_mod:gem_upgrader"
+  },
+  "result": {
+    "item": "gems_fabric_mod:nethgem_2"
+  }
+}

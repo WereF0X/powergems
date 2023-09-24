@@ -1,0 +1,723 @@
+{
+  "_fv": 47,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "FISHERMAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Lifegem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FireGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:EarthGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FireGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Earthgems"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FireGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Netheritegem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FireGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:SculkGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:FireGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GemCrystal"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Mysteriousgem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FISHERMAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:FireGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Lifegem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:EarthGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Lifegem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 7,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Earthgems"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Lifegem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Netheritegem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Lifegem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:SculkGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Lifegem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GemCrystal"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:MysteriusGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FISHERMAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:FireGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:EarthGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Lifegem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:EarthGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Earthgems"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:EarthGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Netheritegem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:EarthGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:SculkGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:EarthGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GemCrystal"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:MysteriosGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FISHERMAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:FireGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Earthgems"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Lifegem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Earthgems"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:EarthGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Earthgems"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Netheritegem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Earthgems"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:SculkGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Earthgems"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GemCrystal"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Mysterousgem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FISHERMAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:FireGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Netheritegem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Lifegem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Netheritegem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:EarthGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Netheritegem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Earthgems"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Netheritegem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:SculkGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Netheritegem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GemCrystal"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Misteriousgem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FISHERMAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:FireGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SculkGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Lifegem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SculkGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:EarthGem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SculkGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Earthgems"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SculkGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:TradeToken"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Netheritegem"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SculkGem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GemCrystal"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Mystiriousgem"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FISHERMAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:GemCrystal"
+            },
+            "countPrice1": 12,
+            "price2": {
+              "value": "Items.NETHERITE_SCRAP"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:GemUpgrader"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

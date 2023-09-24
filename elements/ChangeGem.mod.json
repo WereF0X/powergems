@@ -1,0 +1,121 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 188,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_choose_your_gem",
+          "text": {
+            "fixedValue": "Choose your Gem"
+          },
+          "color": {
+            "value": -23296,
+            "falpha": 0.0
+          },
+          "x": 171,
+          "y": 45
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_fire_gem",
+          "text": "Fire Gem",
+          "onClick": {
+            "name": "Choosefire"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 134,
+          "y": 58
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_life_gem",
+          "text": "Life Gem",
+          "onClick": {
+            "name": "Chooselife"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 231,
+          "y": 58
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_strength_gem",
+          "text": "Strength Gem",
+          "onClick": {
+            "name": "Choosestrength"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 123,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_earth_gem",
+          "text": "Earth Gem",
+          "onClick": {
+            "name": "Choosearth"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 229,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_netherite_gem",
+          "text": "Netherite Gem",
+          "onClick": {
+            "name": "Chooseneth"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 122,
+          "y": 163
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sculk_gem",
+          "text": "Sculk Gem",
+          "onClick": {
+            "name": "Choosesculk"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 229,
+          "y": 163
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

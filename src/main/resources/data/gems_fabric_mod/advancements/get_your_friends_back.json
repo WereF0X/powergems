@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "gems_fabric_mod:revivetotem"
+    },
+    "title": {
+      "translate": "advancements.get_your_friends_back.title"
+    },
+    "description": {
+      "translate": "advancements.get_your_friends_back.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_your_friends_back": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "gems_fabric_mod:revivetotem"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "gems_fabric_mod:the_power_of_the_gods"
+}

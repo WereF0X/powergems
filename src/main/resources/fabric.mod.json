@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "gems_fabric_mod",
+  "version": "1.6",
+  "name": "gems_fabric_mod",
+  "authors": [
+    "The_WereF0X, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.gemsfabricmod.GemsFabricModMod"
+    ],
+    "client": [
+      "net.mcreator.gemsfabricmod.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "gems_fabric_mod.mixins.json"
+  ]
+}

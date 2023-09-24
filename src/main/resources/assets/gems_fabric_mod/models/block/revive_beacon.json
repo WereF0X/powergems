@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gems_fabric_mod:block/block",
+    "up": "gems_fabric_mod:block/block",
+    "north": "gems_fabric_mod:block/block",
+    "east": "gems_fabric_mod:block/block",
+    "south": "gems_fabric_mod:block/block",
+    "west": "gems_fabric_mod:block/block",
+    "particle": "gems_fabric_mod:block/effect"
+  },
+  "render_type": "solid"
+}

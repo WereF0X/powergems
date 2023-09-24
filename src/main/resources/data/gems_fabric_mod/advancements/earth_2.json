@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "gems_fabric_mod:earth_gem_2"
+    },
+    "title": {
+      "translate": "advancements.earth_2.title"
+    },
+    "description": {
+      "translate": "advancements.earth_2.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "earth_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gems_fabric_mod:earth_gem_2"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "gems_fabric_mod:earth"
+}

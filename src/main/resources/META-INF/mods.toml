@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="gems_fabric_mod"
+version="2.4"
+displayName="PowerGems SMP"
+credits="The_WereF0X"
+displayURL="https://discord.gg/sYaGxN68Bt"
+logoFile="logo.png"
+authors="The_WereF0X"
+description="This is a Bliss Smp Inspiration Mod that adds 6 Gems with unique powers to Minecraft."
+
+[[dependencies.gems_fabric_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.gems_fabric_mod]]
+    modId="End_Fight_DLC"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

@@ -1,0 +1,233 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 194,
+    "height": 241,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_revive_players",
+          "text": {
+            "fixedValue": "REVIVE PLAYERS"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 178,
+          "y": 8
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_the_weref0x",
+          "text": "The_WereF0X",
+          "onClick": {
+            "name": "Revive1"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 126,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_cryokinetica",
+          "text": "cryokinetica",
+          "onClick": {
+            "name": "Revive2"
+          },
+          "width": 88,
+          "height": 20,
+          "x": 213,
+          "y": 46
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_gabino12",
+          "text": "gabino12",
+          "onClick": {
+            "name": "Revive3"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 234,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_xselite",
+          "text": "XsElite",
+          "onClick": {
+            "name": "Revive4"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 126,
+          "y": 139
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_zecrom5599",
+          "text": "Zecrom5599",
+          "onClick": {
+            "name": "Revive5"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 224,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_carlwheezer",
+          "text": "CarlWheezer__",
+          "onClick": {
+            "name": "R8"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 208,
+          "y": 77
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_crazycraft186",
+          "text": "CrazyCraft186",
+          "onClick": {
+            "name": "R9"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 207,
+          "y": 139
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_clownplin",
+          "text": "Clownplin",
+          "onClick": {
+            "name": "R12"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 126,
+          "y": 77
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_wiitthered",
+          "text": "wiitthered",
+          "onClick": {
+            "name": "R13"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 126,
+          "y": 109
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_toastedcookie",
+          "text": "_Toastedcookie_",
+          "onClick": {
+            "name": "R14"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 125,
+          "y": 171
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_xrvb",
+          "text": "xrvb",
+          "onClick": {
+            "name": "Revive6"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 125,
+          "y": 202
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_remn_rs",
+          "text": "Remn_RS",
+          "onClick": {
+            "name": "R7"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 126,
+          "y": 19
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_qv1d",
+          "text": "qv1d",
+          "onClick": {
+            "name": "R10"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 254,
+          "y": 20
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_zonally",
+          "text": "Zonally",
+          "onClick": {
+            "name": "R11"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 240,
+          "y": 202
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

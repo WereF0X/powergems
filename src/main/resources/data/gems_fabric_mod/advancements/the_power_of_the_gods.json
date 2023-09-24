@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "gems_fabric_mod:gem_crystal"
+    },
+    "title": {
+      "translate": "advancements.the_power_of_the_gods.title"
+    },
+    "description": {
+      "translate": "advancements.the_power_of_the_gods.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_power_of_the_gods": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gems_fabric_mod:gem_crystal"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25,
+    "recipes": [
+      "gems_fabric_mod:firegemrecipe",
+      "gems_fabric_mod:life_gem_recipe",
+      "gems_fabric_mod:gem_crystal_recipe",
+      "gems_fabric_mod:earth_gem_recipe",
+      "gems_fabric_mod:earthgemrecipe_2",
+      "gems_fabric_mod:gemupgraderrecipe"
+    ]
+  },
+  "parent": "minecraft:story/enter_the_end"
+}

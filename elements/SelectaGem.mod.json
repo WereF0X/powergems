@@ -1,0 +1,135 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 1,
+    "inventoryOffsetY": 1,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_fire_gem",
+          "text": "Fire Gem",
+          "onClick": {
+            "name": "Guifire"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 138,
+          "y": 90
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_life_gem",
+          "text": "Life Gem",
+          "onClick": {
+            "name": "Guilife"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 223,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_strenght_gem",
+          "text": "Strenght Gem",
+          "onClick": {
+            "name": "Guistrenght"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 127,
+          "y": 127
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_earth_gem",
+          "text": "Earth Gem",
+          "onClick": {
+            "name": "Guiearth"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 222,
+          "y": 127
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_netherite_gem",
+          "text": "Netherite Gem",
+          "onClick": {
+            "name": "Guinether"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 126,
+          "y": 165
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sculk_gem",
+          "text": "Sculk Gem",
+          "onClick": {
+            "name": "Guisculk"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 223,
+          "y": 165
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_select_a_gem",
+          "text": {
+            "fixedValue": "SELECT A GEM"
+          },
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "x": 177,
+          "y": 65
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next",
+          "text": "Next",
+          "onClick": {
+            "name": "Procedure1"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 254,
+          "y": 38
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
