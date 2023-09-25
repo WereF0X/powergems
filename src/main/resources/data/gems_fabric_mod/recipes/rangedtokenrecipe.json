@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:netherite_scrap"
+      "item": "minecraft:diamond_block"
     },
     "1": {
       "item": "minecraft:end_crystal"
     },
     "2": {
-      "item": "minecraft:netherite_scrap"
+      "item": "minecraft:netherite_ingot"
     },
     "3": {
       "item": "minecraft:end_crystal"
@@ -26,13 +26,13 @@
       "item": "minecraft:end_crystal"
     },
     "6": {
-      "item": "minecraft:netherite_scrap"
+      "item": "minecraft:netherite_ingot"
     },
     "7": {
       "item": "minecraft:end_crystal"
     },
     "8": {
-      "item": "minecraft:netherite_scrap"
+      "item": "minecraft:diamond_block"
     }
   },
   "result": {

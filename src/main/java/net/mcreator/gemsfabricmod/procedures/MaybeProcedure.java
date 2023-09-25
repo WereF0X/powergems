@@ -2,7 +2,10 @@ package net.mcreator.gemsfabricmod.procedures;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
 
 import net.mcreator.gemsfabricmod.init.GemsFabricModModItems;
 
@@ -55,6 +58,8 @@ public class MaybeProcedure {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 999999999, (int) 0.5, false, false));
 		}
 	}
 }

@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
         "value": "Items.TOTEM_OF_UNDYING"
       },
       {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": "Items.DIAMOND"
+        "value": "Blocks.DIAMOND_BLOCK"
       },
       {
         "value": "Items.AMETHYST_SHARD"
@@ -30,13 +30,13 @@
         "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Items.EMERALD"
+        "value": "Blocks.DIAMOND_BLOCK"
       },
       {
         "value": "Items.TOTEM_OF_UNDYING"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
       }
     ],
     "recipeReturnStack": {

@@ -47,7 +47,7 @@ public class Recipes6Screen extends AbstractContainerScreen<Recipes6Menu> {
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("gems_fabric_mod:textures/screens/df.png"), this.leftPos + 15, this.topPos + 53, 0, 0, 150, 70, 150, 70);
+		guiGraphics.blit(new ResourceLocation("gems_fabric_mod:textures/screens/sdasdasd.png"), this.leftPos + 14, this.topPos + 43, 0, 0, 150, 70, 150, 70);
 
 		RenderSystem.disableBlend();
 	}

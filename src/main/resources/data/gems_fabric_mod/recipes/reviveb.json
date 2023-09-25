@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:totem_of_undying"
+      "item": "minecraft:emerald_block"
     },
     "1": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:totem_of_undying"
     },
     "2": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:diamond_block"
     },
     "3": {
       "item": "minecraft:amethyst_shard"
@@ -26,13 +26,13 @@
       "item": "minecraft:amethyst_shard"
     },
     "6": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:diamond_block"
     },
     "7": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:totem_of_undying"
     },
     "8": {
-      "item": "minecraft:totem_of_undying"
+      "item": "minecraft:emerald_block"
     }
   },
   "result": {

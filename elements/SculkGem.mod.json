@@ -34,6 +34,9 @@
     "onRightClickedInAir": {
       "name": "SculkGemRightclicked"
     },
+    "onItemInInventoryTick": {
+      "name": "SculkGemItemInInventoryTick"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

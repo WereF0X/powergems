@@ -7,10 +7,12 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
 import net.mcreator.gemsfabricmod.procedures.SculkGemRightclickedProcedure;
+import net.mcreator.gemsfabricmod.procedures.SculkGemItemInInventoryTickProcedure;
 
 public class SculkGemItem extends Item {
 	public SculkGemItem() {
@@ -31,5 +33,11 @@ public class SculkGemItem extends Item {
 		double z = entity.getZ();
 		SculkGemRightclickedProcedure.execute(world, x, y, z, entity, itemstack);
 		return ar;
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		SculkGemItemInInventoryTickProcedure.execute(entity);
 	}
 }

@@ -9,11 +9,11 @@ import net.minecraft.world.effect.MobEffectInstance;
 
 import net.mcreator.gemsfabricmod.init.GemsFabricModModItems;
 
-public class Mayb5Procedure {
+public class SculkGemItemInInventoryTickProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GemsFabricModModItems.NETHERITEGEM.get())) : false) {
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(GemsFabricModModItems.SCULK_GEM.get())) : false) {
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.FIRE_GEM.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
@@ -31,7 +31,7 @@ public class Mayb5Procedure {
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			if (entity instanceof Player _player) {
-				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.SCULK_GEM.get());
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.NETHERITEGEM.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			if (entity instanceof Player _player) {
@@ -59,7 +59,7 @@ public class Mayb5Procedure {
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 999999999, (int) 0.5, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.UNLUCK, 999999999, (int) 0.5, false, false));
 		}
 	}
 }
