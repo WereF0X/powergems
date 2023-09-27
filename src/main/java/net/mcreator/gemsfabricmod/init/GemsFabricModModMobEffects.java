@@ -16,6 +16,6 @@ import net.mcreator.gemsfabricmod.GemsFabricModMod;
 
 public class GemsFabricModModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, GemsFabricModMod.MODID);
-	public static final RegistryObject<MobEffect> NETHERITERES = REGISTRY.register("netheriteres", () -> new NetheriteresMobEffect());
 	public static final RegistryObject<MobEffect> HEADACHE = REGISTRY.register("headache", () -> new HeadacheMobEffect());
+	public static final RegistryObject<MobEffect> NETHERITERES = REGISTRY.register("netheriteres", () -> new NetheriteresMobEffect());
 }

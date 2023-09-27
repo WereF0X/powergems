@@ -26,8 +26,8 @@ public class GemsFabricModModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(GemsFabricModModMenus.RECIPES.get(), RecipesScreen::new);
 			MenuScreens.register(GemsFabricModModMenus.SELECTA_GEM.get(), SelectaGemScreen::new);
+			MenuScreens.register(GemsFabricModModMenus.RECIPES.get(), RecipesScreen::new);
 			MenuScreens.register(GemsFabricModModMenus.RECIPES_2.get(), Recipes2Screen::new);
 			MenuScreens.register(GemsFabricModModMenus.RECIPES_3.get(), Recipes3Screen::new);
 			MenuScreens.register(GemsFabricModModMenus.RECIPES_4.get(), Recipes4Screen::new);

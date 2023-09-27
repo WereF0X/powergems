@@ -3,7 +3,7 @@
     {
       "name": "FireGemRightclicked",
       "type": "procedure",
-      "sortid": 2,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_gem_rightclicked",
@@ -26,7 +26,7 @@
     {
       "name": "FireGem",
       "type": "item",
-      "sortid": 4,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_gem",
@@ -40,7 +40,7 @@
     {
       "name": "Firegemrecipe",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "firegemrecipe",
@@ -53,7 +53,7 @@
     {
       "name": "LifegemRightclicked",
       "type": "procedure",
-      "sortid": 1,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lifegem_rightclicked",
@@ -106,7 +106,7 @@
     {
       "name": "GemCrystal",
       "type": "item",
-      "sortid": 5,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gem_crystal",
@@ -120,7 +120,7 @@
     {
       "name": "GemCrystalRecipe",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gem_crystal_recipe",
@@ -133,7 +133,7 @@
     {
       "name": "LifeGemRecipe",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "life_gem_recipe",
@@ -146,7 +146,7 @@
     {
       "name": "ThePowerOfTheGods",
       "type": "achievement",
-      "sortid": 28,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_power_of_the_gods",
@@ -159,7 +159,7 @@
     {
       "name": "EarthGemRightclicked",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_gem_rightclicked",
@@ -198,7 +198,7 @@
     {
       "name": "EarthGem",
       "type": "item",
-      "sortid": 10,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strenght_gem",
@@ -212,7 +212,7 @@
     {
       "name": "EarthGemRecipe",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_gem_recipe",
@@ -225,7 +225,7 @@
     {
       "name": "Gems",
       "type": "tab",
-      "sortid": 29,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gems",
@@ -236,7 +236,7 @@
     {
       "name": "EarthgemsRightclicked",
       "type": "procedure",
-      "sortid": 12,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earthgems_rightclicked",
@@ -275,7 +275,7 @@
     {
       "name": "Earthgems",
       "type": "item",
-      "sortid": 13,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earthgems",
@@ -289,7 +289,7 @@
     {
       "name": "Earthgemrecipe2",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earthgemrecipe_2",
@@ -302,7 +302,7 @@
     {
       "name": "NetheriteGemSword",
       "type": "tool",
-      "sortid": 15,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_gem_sword",
@@ -316,7 +316,7 @@
     {
       "name": "NetheritegemRightclicked",
       "type": "procedure",
-      "sortid": 16,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netheritegem_rightclicked",
@@ -343,7 +343,7 @@
     {
       "name": "Netheritegem",
       "type": "item",
-      "sortid": 17,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netheritegem",
@@ -357,7 +357,7 @@
     {
       "name": "Sculkarmor",
       "type": "armor",
-      "sortid": 18,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculkarmor",
@@ -374,7 +374,7 @@
     {
       "name": "SculkGemRightclicked",
       "type": "procedure",
-      "sortid": 19,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculk_gem_rightclicked",
@@ -413,7 +413,7 @@
     {
       "name": "SculkGem",
       "type": "item",
-      "sortid": 20,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculk_gem",
@@ -427,7 +427,7 @@
     {
       "name": "GemUpgrader",
       "type": "item",
-      "sortid": 21,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gem_upgrader",
@@ -441,7 +441,7 @@
     {
       "name": "Gemupgraderrecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gemupgraderrecipe",
@@ -454,7 +454,7 @@
     {
       "name": "Firelauncher",
       "type": "rangeditem",
-      "sortid": 23,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "firelauncher",
@@ -469,7 +469,7 @@
     {
       "name": "FireGem2Rightclicked",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_gem_2_rightclicked",
@@ -496,7 +496,7 @@
     {
       "name": "FireGem2",
       "type": "item",
-      "sortid": 25,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_gem_2",
@@ -510,7 +510,7 @@
     {
       "name": "Firegem2recipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "firegem_2recipe",
@@ -523,7 +523,7 @@
     {
       "name": "Nethgemrecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nethgemrecipe",
@@ -536,7 +536,7 @@
     {
       "name": "Strenghtgem2Rightclicked",
       "type": "procedure",
-      "sortid": 30,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strenghtgem_2_rightclicked",
@@ -575,7 +575,7 @@
     {
       "name": "Strenghtgem2",
       "type": "item",
-      "sortid": 31,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strenghtgem_2",
@@ -589,7 +589,7 @@
     {
       "name": "Strenghtgem2recipe",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strenghtgem_2recipe",
@@ -602,7 +602,7 @@
     {
       "name": "Sculkgemrecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculkgemrecipe",
@@ -615,7 +615,7 @@
     {
       "name": "HeadacheActiveTickCondition",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "headache_active_tick_condition",
@@ -634,7 +634,7 @@
     {
       "name": "Headache",
       "type": "potioneffect",
-      "sortid": 48,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "headache",
@@ -647,7 +647,7 @@
     {
       "name": "EarthDartLivingEntityIsHitWithItem",
       "type": "procedure",
-      "sortid": 35,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_dart_living_entity_is_hit_with_item",
@@ -666,7 +666,7 @@
     {
       "name": "EarthDart",
       "type": "item",
-      "sortid": 36,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_dart",
@@ -680,7 +680,7 @@
     {
       "name": "EarthBow",
       "type": "rangeditem",
-      "sortid": 37,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_bow",
@@ -695,7 +695,7 @@
     {
       "name": "EarthGem2Rightclicked",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_gem_2_rightclicked",
@@ -734,7 +734,7 @@
     {
       "name": "EarthGem2",
       "type": "item",
-      "sortid": 39,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_gem_2",
@@ -748,7 +748,7 @@
     {
       "name": "Earthgem2recipe",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earthgem_2recipe",
@@ -761,7 +761,7 @@
     {
       "name": "Gemupgradertier3",
       "type": "item",
-      "sortid": 41,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gemupgradertier_3",
@@ -775,7 +775,7 @@
     {
       "name": "StrenghtGem3",
       "type": "item",
-      "sortid": 42,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strenght_gem_3",
@@ -789,7 +789,7 @@
     {
       "name": "Gemupgrader3recipe",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gemupgrader_3recipe",
@@ -802,7 +802,7 @@
     {
       "name": "Strenght3recipe",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strenght_3recipe",
@@ -815,7 +815,7 @@
     {
       "name": "StrenghtGem3Rightclicked",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strenght_gem_3_rightclicked",
@@ -854,7 +854,7 @@
     {
       "name": "NetheriteresActiveTickCondition",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netheriteres_active_tick_condition",
@@ -873,7 +873,7 @@
     {
       "name": "Netheriteres",
       "type": "potioneffect",
-      "sortid": 47,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netheriteres",
@@ -886,7 +886,7 @@
     {
       "name": "Nethgem2Rightclicked",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nethgem_2_rightclicked",
@@ -913,7 +913,7 @@
     {
       "name": "Nethgem2",
       "type": "item",
-      "sortid": 50,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nethgem_2",
@@ -927,7 +927,7 @@
     {
       "name": "Nethgem2reciope",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nethgem_2reciope",
@@ -940,7 +940,7 @@
     {
       "name": "NetheriteresEffectStartedapplied",
       "type": "procedure",
-      "sortid": 52,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netheriteres_effect_startedapplied",
@@ -959,7 +959,7 @@
     {
       "name": "Upgradermultiplier",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "upgradermultiplier",
@@ -972,7 +972,7 @@
     {
       "name": "Upgrader3multiplier",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "upgrader_3multiplier",
@@ -985,7 +985,7 @@
     {
       "name": "Guifire",
       "type": "procedure",
-      "sortid": 57,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guifire",
@@ -1004,7 +1004,7 @@
     {
       "name": "Guilife",
       "type": "procedure",
-      "sortid": 58,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guilife",
@@ -1023,7 +1023,7 @@
     {
       "name": "Guistrenght",
       "type": "procedure",
-      "sortid": 59,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guistrenght",
@@ -1042,7 +1042,7 @@
     {
       "name": "Guiearth",
       "type": "procedure",
-      "sortid": 60,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guiearth",
@@ -1061,7 +1061,7 @@
     {
       "name": "Guinether",
       "type": "procedure",
-      "sortid": 61,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guinether",
@@ -1080,7 +1080,7 @@
     {
       "name": "Guisculk",
       "type": "procedure",
-      "sortid": 62,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guisculk",
@@ -1099,7 +1099,7 @@
     {
       "name": "SelectaGem",
       "type": "gui",
-      "sortid": 66,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "selecta_gem",
@@ -1114,7 +1114,7 @@
     {
       "name": "YOnKeyPressed",
       "type": "procedure",
-      "sortid": 63,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "y_on_key_pressed",
@@ -1149,7 +1149,7 @@
     {
       "name": "Y",
       "type": "keybind",
-      "sortid": 88,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "y",
@@ -1162,7 +1162,7 @@
     {
       "name": "HeadacheEffectStartedapplied",
       "type": "procedure",
-      "sortid": 64,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "headache_effect_startedapplied",
@@ -1181,7 +1181,7 @@
     {
       "name": "Recipes",
       "type": "gui",
-      "sortid": 65,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipes",
@@ -1196,7 +1196,7 @@
     {
       "name": "Recipes2",
       "type": "gui",
-      "sortid": 67,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipes_2",
@@ -1211,7 +1211,7 @@
     {
       "name": "Recipes3",
       "type": "gui",
-      "sortid": 68,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipes_3",
@@ -1226,7 +1226,7 @@
     {
       "name": "Recipes4",
       "type": "gui",
-      "sortid": 69,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipes_4",
@@ -1241,7 +1241,7 @@
     {
       "name": "Procedure1",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "procedure_1",
@@ -1276,7 +1276,7 @@
     {
       "name": "Procedure2",
       "type": "procedure",
-      "sortid": 71,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "procedure_2",
@@ -1311,7 +1311,7 @@
     {
       "name": "Proc3",
       "type": "procedure",
-      "sortid": 72,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proc_3",
@@ -1346,7 +1346,7 @@
     {
       "name": "Proc4",
       "type": "procedure",
-      "sortid": 73,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proc_4",
@@ -1381,7 +1381,7 @@
     {
       "name": "Upgradert",
       "type": "loottable",
-      "sortid": 87,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "upgradert",
@@ -1394,7 +1394,7 @@
     {
       "name": "FlightGemRightclicked",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flight_gem_rightclicked",
@@ -1421,7 +1421,7 @@
     {
       "name": "Lifegem2Rightclicked",
       "type": "procedure",
-      "sortid": 75,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lifegem_2_rightclicked",
@@ -1460,7 +1460,7 @@
     {
       "name": "Lifegem2",
       "type": "item",
-      "sortid": 76,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lifegem_2",
@@ -1474,7 +1474,7 @@
     {
       "name": "Lifegem2recipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lifegem_2recipe",
@@ -1487,7 +1487,7 @@
     {
       "name": "FireGemItemIsDroppedByPlayer",
       "type": "procedure",
-      "sortid": 78,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_gem_item_is_dropped_by_player",
@@ -1506,7 +1506,7 @@
     {
       "name": "TheNewGeneration",
       "type": "achievement",
-      "sortid": 79,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_new_generation",
@@ -1519,7 +1519,7 @@
     {
       "name": "Maybe",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maybe",
@@ -1538,7 +1538,7 @@
     {
       "name": "Maybe2",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maybe_2",
@@ -1557,7 +1557,7 @@
     {
       "name": "Maybe3",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maybe_3",
@@ -1576,7 +1576,7 @@
     {
       "name": "Maybe4",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maybe_4",
@@ -1595,7 +1595,7 @@
     {
       "name": "Mayb5",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mayb_5",
@@ -1614,7 +1614,7 @@
     {
       "name": "Maybe6",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maybe_6",
@@ -1633,7 +1633,7 @@
     {
       "name": "Gemloottable",
       "type": "loottable",
-      "sortid": 86,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gemloottable",
@@ -1646,7 +1646,7 @@
     {
       "name": "TradeToken",
       "type": "item",
-      "sortid": 90,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trade_token",
@@ -1660,7 +1660,7 @@
     {
       "name": "Gemtrade",
       "type": "villagertrade",
-      "sortid": 91,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gemtrade",
@@ -1671,7 +1671,7 @@
     {
       "name": "Rangedtokenrecipe",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rangedtokenrecipe",
@@ -1684,7 +1684,7 @@
     {
       "name": "Recipes5",
       "type": "gui",
-      "sortid": 93,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipes_5",
@@ -1699,7 +1699,7 @@
     {
       "name": "Recipes6",
       "type": "gui",
-      "sortid": 94,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipes_6",
@@ -1713,7 +1713,7 @@
     {
       "name": "Proc5",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proc_5",
@@ -1748,7 +1748,7 @@
     {
       "name": "Proc6",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "proc_6",
@@ -1783,7 +1783,7 @@
     {
       "name": "MysteriousgemRightclicked",
       "type": "procedure",
-      "sortid": 97,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mysteriousgem_rightclicked",
@@ -1810,7 +1810,7 @@
     {
       "name": "Mysteriousgem",
       "type": "item",
-      "sortid": 98,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mysteriousgem",
@@ -1824,7 +1824,7 @@
     {
       "name": "MysteriusGem",
       "type": "item",
-      "sortid": 99,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mysterius_gem",
@@ -1838,7 +1838,7 @@
     {
       "name": "MysteriusGemRightclicked",
       "type": "procedure",
-      "sortid": 100,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mysterius_gem_rightclicked",
@@ -1865,7 +1865,7 @@
     {
       "name": "MysteriosGem",
       "type": "item",
-      "sortid": 101,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mysterios_gem",
@@ -1879,7 +1879,7 @@
     {
       "name": "MysteriosGemRightclicked",
       "type": "procedure",
-      "sortid": 102,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mysterios_gem_rightclicked",
@@ -1906,7 +1906,7 @@
     {
       "name": "Mysterousgem",
       "type": "item",
-      "sortid": 103,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mysterousgem",
@@ -1920,7 +1920,7 @@
     {
       "name": "MysterousgemRightclicked",
       "type": "procedure",
-      "sortid": 104,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mysterousgem_rightclicked",
@@ -1947,7 +1947,7 @@
     {
       "name": "Misteriousgem",
       "type": "item",
-      "sortid": 105,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "misteriousgem",
@@ -1988,7 +1988,7 @@
     {
       "name": "Mystiriousgem",
       "type": "item",
-      "sortid": 107,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mystiriousgem",
@@ -2002,7 +2002,7 @@
     {
       "name": "MystiriousgemRightclicked",
       "type": "procedure",
-      "sortid": 108,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mystiriousgem_rightclicked",
@@ -2029,7 +2029,7 @@
     {
       "name": "NoNetherite",
       "type": "procedure",
-      "sortid": 109,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "no_netherite",
@@ -2048,7 +2048,7 @@
     {
       "name": "ReviveBeacon",
       "type": "block",
-      "sortid": 110,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revive_beacon",
@@ -2064,7 +2064,7 @@
     {
       "name": "Revive1",
       "type": "procedure",
-      "sortid": 111,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revive_1",
@@ -2083,7 +2083,7 @@
     {
       "name": "Revive",
       "type": "gui",
-      "sortid": 112,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revive",
@@ -2098,7 +2098,7 @@
     {
       "name": "ReviveBeaconBlockIsPlacedBy",
       "type": "procedure",
-      "sortid": 113,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revive_beacon_block_is_placed_by",
@@ -2137,7 +2137,7 @@
     {
       "name": "Crystal",
       "type": "loottable",
-      "sortid": 114,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal",
@@ -2150,7 +2150,7 @@
     {
       "name": "Reviveb",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reviveb",
@@ -2163,7 +2163,7 @@
     {
       "name": "GetYourFriendsBack",
       "type": "achievement",
-      "sortid": 116,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_your_friends_back",
@@ -2176,7 +2176,7 @@
     {
       "name": "Revive2",
       "type": "procedure",
-      "sortid": 119,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revive_2",
@@ -2195,7 +2195,7 @@
     {
       "name": "Revive3",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revive_3",
@@ -2214,7 +2214,7 @@
     {
       "name": "Revive4",
       "type": "procedure",
-      "sortid": 121,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revive_4",
@@ -2233,7 +2233,7 @@
     {
       "name": "Revive5",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revive_5",
@@ -2252,7 +2252,7 @@
     {
       "name": "Revive6",
       "type": "procedure",
-      "sortid": 123,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revive_6",
@@ -2271,7 +2271,7 @@
     {
       "name": "R7",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_7",
@@ -2290,7 +2290,7 @@
     {
       "name": "R8",
       "type": "procedure",
-      "sortid": 125,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_8",
@@ -2309,7 +2309,7 @@
     {
       "name": "R9",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_9",
@@ -2328,7 +2328,7 @@
     {
       "name": "Revivetotem",
       "type": "item",
-      "sortid": 127,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revivetotem",
@@ -2342,7 +2342,7 @@
     {
       "name": "R10",
       "type": "procedure",
-      "sortid": 128,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_10",
@@ -2361,7 +2361,7 @@
     {
       "name": "Kill",
       "type": "procedure",
-      "sortid": 129,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kill",
@@ -2396,7 +2396,7 @@
     {
       "name": "R11",
       "type": "procedure",
-      "sortid": 130,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_11",
@@ -2415,7 +2415,7 @@
     {
       "name": "Tellraw",
       "type": "procedure",
-      "sortid": 131,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tellraw",
@@ -2434,7 +2434,7 @@
     {
       "name": "R12",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_12",
@@ -2453,7 +2453,7 @@
     {
       "name": "R13",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_13",
@@ -2472,7 +2472,7 @@
     {
       "name": "R14",
       "type": "procedure",
-      "sortid": 134,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "r_14",
@@ -2491,7 +2491,7 @@
     {
       "name": "Startprocedure",
       "type": "procedure",
-      "sortid": 135,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "startprocedure",
@@ -2510,7 +2510,7 @@
     {
       "name": "Start",
       "type": "command",
-      "sortid": 136,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "start",
@@ -2523,7 +2523,7 @@
     {
       "name": "Gay",
       "type": "procedure",
-      "sortid": 137,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gay",
@@ -2542,7 +2542,7 @@
     {
       "name": "Move",
       "type": "command",
-      "sortid": 138,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "move",
@@ -2555,7 +2555,7 @@
     {
       "name": "Pvp",
       "type": "procedure",
-      "sortid": 139,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pvp",
@@ -2574,7 +2574,7 @@
     {
       "name": "EnablePvP",
       "type": "command",
-      "sortid": 140,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enable_pv_p",
@@ -2587,7 +2587,7 @@
     {
       "name": "Reload",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reload",
@@ -2606,7 +2606,7 @@
     {
       "name": "Reloading",
       "type": "command",
-      "sortid": 142,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reloading",
@@ -2619,7 +2619,7 @@
     {
       "name": "EarthBowRangedItemUsed",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_bow_ranged_item_used",
@@ -2642,7 +2642,7 @@
     {
       "name": "FirelauncherRangedItemUsed",
       "type": "procedure",
-      "sortid": 144,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "firelauncher_ranged_item_used",
@@ -2665,7 +2665,7 @@
     {
       "name": "Lock",
       "type": "procedure",
-      "sortid": 145,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lock",
@@ -2684,7 +2684,7 @@
     {
       "name": "Fire",
       "type": "achievement",
-      "sortid": 146,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire",
@@ -2697,7 +2697,7 @@
     {
       "name": "Life",
       "type": "achievement",
-      "sortid": 147,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "life",
@@ -2710,7 +2710,7 @@
     {
       "name": "Strength",
       "type": "achievement",
-      "sortid": 148,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strength",
@@ -2723,7 +2723,7 @@
     {
       "name": "Earth",
       "type": "achievement",
-      "sortid": 149,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth",
@@ -2736,7 +2736,7 @@
     {
       "name": "Netherite",
       "type": "achievement",
-      "sortid": 150,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite",
@@ -2749,7 +2749,7 @@
     {
       "name": "Sculk",
       "type": "achievement",
-      "sortid": 151,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculk",
@@ -2762,7 +2762,7 @@
     {
       "name": "Locklife",
       "type": "procedure",
-      "sortid": 152,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "locklife",
@@ -2781,7 +2781,7 @@
     {
       "name": "Lockstre",
       "type": "procedure",
-      "sortid": 153,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lockstre",
@@ -2800,7 +2800,7 @@
     {
       "name": "Lockea",
       "type": "procedure",
-      "sortid": 154,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lockea",
@@ -2819,7 +2819,7 @@
     {
       "name": "Lockneth",
       "type": "procedure",
-      "sortid": 155,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lockneth",
@@ -2838,7 +2838,7 @@
     {
       "name": "Locksculk",
       "type": "procedure",
-      "sortid": 156,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "locksculk",
@@ -2857,7 +2857,7 @@
     {
       "name": "Choosefire",
       "type": "procedure",
-      "sortid": 157,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "choosefire",
@@ -2876,7 +2876,7 @@
     {
       "name": "ChangeGem",
       "type": "gui",
-      "sortid": 158,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "change_gem",
@@ -2891,7 +2891,7 @@
     {
       "name": "Openchoose",
       "type": "procedure",
-      "sortid": 159,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "openchoose",
@@ -2926,7 +2926,7 @@
     {
       "name": "Fire2",
       "type": "achievement",
-      "sortid": 165,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_2",
@@ -2939,7 +2939,7 @@
     {
       "name": "Life2",
       "type": "achievement",
-      "sortid": 166,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "life_2",
@@ -2952,7 +2952,7 @@
     {
       "name": "Strength2",
       "type": "achievement",
-      "sortid": 167,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strength_2",
@@ -2965,7 +2965,7 @@
     {
       "name": "Earth2",
       "type": "achievement",
-      "sortid": 168,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_2",
@@ -2978,7 +2978,7 @@
     {
       "name": "Neth2",
       "type": "achievement",
-      "sortid": 169,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neth_2",
@@ -2991,7 +2991,7 @@
     {
       "name": "Strength3",
       "type": "achievement",
-      "sortid": 170,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strength_3",
@@ -3004,7 +3004,7 @@
     {
       "name": "Chooselife",
       "type": "procedure",
-      "sortid": 171,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chooselife",
@@ -3023,7 +3023,7 @@
     {
       "name": "Choosestrength",
       "type": "procedure",
-      "sortid": 172,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "choosestrength",
@@ -3042,7 +3042,7 @@
     {
       "name": "Choosearth",
       "type": "procedure",
-      "sortid": 173,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "choosearth",
@@ -3061,7 +3061,7 @@
     {
       "name": "Chooseneth",
       "type": "procedure",
-      "sortid": 174,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chooseneth",
@@ -3080,7 +3080,7 @@
     {
       "name": "Choosesculk",
       "type": "procedure",
-      "sortid": 175,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "choosesculk",
@@ -3099,7 +3099,7 @@
     {
       "name": "Blackist",
       "type": "procedure",
-      "sortid": 176,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blackist",
@@ -3118,7 +3118,7 @@
     {
       "name": "Despawn",
       "type": "procedure",
-      "sortid": 177,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "despawn",
@@ -3141,7 +3141,7 @@
     {
       "name": "Blacklist",
       "type": "procedure",
-      "sortid": 178,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blacklist",
@@ -3164,7 +3164,7 @@
     {
       "name": "Delete",
       "type": "procedure",
-      "sortid": 179,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "delete",
@@ -3187,7 +3187,7 @@
     {
       "name": "Advancement",
       "type": "procedure",
-      "sortid": 180,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "advancement",
@@ -3206,7 +3206,7 @@
     {
       "name": "FireGemRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 181,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_gem_rightclicked_on_block",
@@ -3237,7 +3237,7 @@
     {
       "name": "FirelauncherProjectileHitsBlock",
       "type": "procedure",
-      "sortid": 182,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "firelauncher_projectile_hits_block",
@@ -3268,7 +3268,7 @@
     {
       "name": "FirelauncherProjectileHitsLivingEntity",
       "type": "procedure",
-      "sortid": 183,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "firelauncher_projectile_hits_living_entity",
@@ -3299,7 +3299,7 @@
     {
       "name": "Removeextra",
       "type": "procedure",
-      "sortid": 184,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "removeextra",
@@ -3322,7 +3322,7 @@
     {
       "name": "Removeadv",
       "type": "procedure",
-      "sortid": 185,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "removeadv",
@@ -3345,7 +3345,7 @@
     {
       "name": "Removelife",
       "type": "procedure",
-      "sortid": 186,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "removelife",
@@ -3368,7 +3368,7 @@
     {
       "name": "Earthremove",
       "type": "procedure",
-      "sortid": 187,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earthremove",
@@ -3391,7 +3391,7 @@
     {
       "name": "Strengthrem",
       "type": "procedure",
-      "sortid": 188,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strengthrem",
@@ -3414,7 +3414,7 @@
     {
       "name": "Netherremove",
       "type": "procedure",
-      "sortid": 189,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherremove",
@@ -3437,7 +3437,7 @@
     {
       "name": "Sculkrem",
       "type": "procedure",
-      "sortid": 190,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculkrem",
@@ -3460,7 +3460,7 @@
     {
       "name": "Fire2re",
       "type": "procedure",
-      "sortid": 191,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_2re",
@@ -3483,7 +3483,7 @@
     {
       "name": "Life2r",
       "type": "procedure",
-      "sortid": 192,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "life_2r",
@@ -3506,7 +3506,7 @@
     {
       "name": "Earth2r",
       "type": "procedure",
-      "sortid": 193,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_2r",
@@ -3529,7 +3529,7 @@
     {
       "name": "Strength2r",
       "type": "procedure",
-      "sortid": 194,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strength_2r",
@@ -3552,7 +3552,7 @@
     {
       "name": "Nether2r",
       "type": "procedure",
-      "sortid": 195,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_2r",
@@ -3575,7 +3575,7 @@
     {
       "name": "Strength3r",
       "type": "procedure",
-      "sortid": 196,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strength_3r",
@@ -3598,7 +3598,7 @@
     {
       "name": "Nocrystal",
       "type": "procedure",
-      "sortid": 197,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nocrystal",
@@ -3621,7 +3621,7 @@
     {
       "name": "Random",
       "type": "procedure",
-      "sortid": 198,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "random",
@@ -3640,7 +3640,7 @@
     {
       "name": "Randomgems",
       "type": "command",
-      "sortid": 199,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "randomgems",
@@ -3653,13 +3653,231 @@
     {
       "name": "SculkGemItemInInventoryTick",
       "type": "procedure",
-      "sortid": 200,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sculk_gem_item_in_inventory_tick",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/gemsfabricmod/procedures/SculkGemItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SculkarmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculkarmor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/SculkarmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sethealth",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sethealth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/SethealthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sethealthondeath",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sethealthondeath",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/SethealthondeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResilienceGemRightclicked",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resilience_gem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ResilienceGemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResilienceGem",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resilience_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/item/ResilienceGemItem.java",
+          "src/main/resources/assets/gems_fabric_mod/models/item/resilience_gem.json"
+        ]
+      }
+    },
+    {
+      "name": "Resilience",
+      "type": "achievement",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resilience",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gems_fabric_mod/advancements/resilience.json"
+        ]
+      }
+    },
+    {
+      "name": "Lockresilience",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lockresilience",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/LockresilienceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResilienceGemItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resilience_gem_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ResilienceGemItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Resiliencer",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resiliencer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ResiliencerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chooseresilience",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chooseresilience",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/ChooseresilienceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Newgem",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newgem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gemsfabricmod/procedures/NewgemProcedure.java"
         ],
         "dependencies": [
           {
@@ -3711,11 +3929,13 @@
       "gui.gems_fabric_mod.recipes_5.label_recipes": "Recipes",
       "item.gems_fabric_mod.misteriousgem": "Mysterious Gem",
       "advancements.neth_2.descr": "Netherite Gem!",
+      "advancements.resilience.title": "Resilience!",
       "gui.gems_fabric_mod.recipes_6.label_recipes": "Recipes",
       "item.gems_fabric_mod.sculkarmor_leggings": "Sculk Leggings",
       "advancements.netherite.title": "Netherite!",
       "gui.gems_fabric_mod.selecta_gem.button_sculk_gem": "Sculk Gem",
       "advancements.earth_2.descr": "Earth Gem!",
+      "advancements.resilience.descr": "Resilience!",
       "gui.gems_fabric_mod.recipes_4.label_recipes": "RECIPES",
       "gui.gems_fabric_mod.selecta_gem.button_next": "Next",
       "item.gems_fabric_mod.mysteriousgem": "Mysterious Gem",
@@ -3749,6 +3969,7 @@
       "gui.gems_fabric_mod.selecta_gem.button_netherite_gem": "Netherite Gem",
       "advancements.fire.title": "Fire!",
       "advancements.strength_3.descr": "Strength Gem!",
+      "item.gems_fabric_mod.resilience_gem": "Resilience Gem",
       "gui.gems_fabric_mod.revive.button_koolvillager": "Remn_RS",
       "gui.gems_fabric_mod.change_gem.label_choose_your_gem": "Choose your Gem",
       "item_group.gems_fabric_mod.gems": "Gems",

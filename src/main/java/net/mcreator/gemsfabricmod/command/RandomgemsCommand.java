@@ -13,13 +13,13 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.commands.Commands;
 
-import net.mcreator.gemsfabricmod.procedures.RandomProcedure;
+import net.mcreator.gemsfabricmod.procedures.NewgemProcedure;
 
 @Mod.EventBusSubscriber
 public class RandomgemsCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("gems").requires(s -> s.hasPermission(4)).executes(arguments -> {
+		event.getDispatcher().register(Commands.literal("new").requires(s -> s.hasPermission(4)).executes(arguments -> {
 			ServerLevel world = arguments.getSource().getLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();
@@ -29,7 +29,7 @@ public class RandomgemsCommand {
 				entity = FakePlayerFactory.getMinecraft(world);
 			Direction direction = entity.getDirection();
 
-			RandomProcedure.execute(entity);
+			NewgemProcedure.execute(entity);
 			return 0;
 		}));
 	}

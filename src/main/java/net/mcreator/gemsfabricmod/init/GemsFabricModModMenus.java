@@ -24,8 +24,8 @@ import net.mcreator.gemsfabricmod.GemsFabricModMod;
 
 public class GemsFabricModModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, GemsFabricModMod.MODID);
-	public static final RegistryObject<MenuType<RecipesMenu>> RECIPES = REGISTRY.register("recipes", () -> IForgeMenuType.create(RecipesMenu::new));
 	public static final RegistryObject<MenuType<SelectaGemMenu>> SELECTA_GEM = REGISTRY.register("selecta_gem", () -> IForgeMenuType.create(SelectaGemMenu::new));
+	public static final RegistryObject<MenuType<RecipesMenu>> RECIPES = REGISTRY.register("recipes", () -> IForgeMenuType.create(RecipesMenu::new));
 	public static final RegistryObject<MenuType<Recipes2Menu>> RECIPES_2 = REGISTRY.register("recipes_2", () -> IForgeMenuType.create(Recipes2Menu::new));
 	public static final RegistryObject<MenuType<Recipes3Menu>> RECIPES_3 = REGISTRY.register("recipes_3", () -> IForgeMenuType.create(Recipes3Menu::new));
 	public static final RegistryObject<MenuType<Recipes4Menu>> RECIPES_4 = REGISTRY.register("recipes_4", () -> IForgeMenuType.create(Recipes4Menu::new));

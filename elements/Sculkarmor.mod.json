@@ -10,6 +10,18 @@
     "textureLeggings": "warden_leggings",
     "enableBoots": true,
     "textureBoots": "warden_boots",
+    "onHelmetTick": {
+      "name": "SculkarmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "SculkarmorHelmetTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "SculkarmorHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "SculkarmorHelmetTickEvent"
+    },
     "creativeTab": {
       "value": "No creative tab entry"
     },

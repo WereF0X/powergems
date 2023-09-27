@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "command",
   "definition": {
-    "commandName": "gems",
+    "commandName": "new",
     "permissionLevel": "4",
-    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"call_procedure\"><field name=\"procedure\">Random</field></block></next></block></xml>"
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"call_procedure\"><field name=\"procedure\">Newgem</field></block></next></block></xml>"
   }
 }
