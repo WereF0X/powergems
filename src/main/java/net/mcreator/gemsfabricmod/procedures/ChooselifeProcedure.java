@@ -76,6 +76,10 @@ public class ChooselifeProcedure {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
 			{
 				Entity _ent = entity;
 				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
@@ -233,6 +237,10 @@ public class ChooselifeProcedure {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
 			{
 				Entity _ent = entity;
 				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
@@ -346,6 +354,10 @@ public class ChooselifeProcedure {
 			}
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			{
@@ -463,6 +475,10 @@ public class ChooselifeProcedure {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
 			{
 				Entity _ent = entity;
 				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
@@ -576,6 +592,10 @@ public class ChooselifeProcedure {
 			}
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			{
@@ -693,6 +713,10 @@ public class ChooselifeProcedure {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
 			{
 				Entity _ent = entity;
 				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
@@ -806,6 +830,10 @@ public class ChooselifeProcedure {
 			}
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			{
@@ -965,6 +993,10 @@ public class ChooselifeProcedure {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
 			{
 				Entity _ent = entity;
 				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
@@ -1120,6 +1152,10 @@ public class ChooselifeProcedure {
 			}
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			{
@@ -1319,6 +1355,10 @@ public class ChooselifeProcedure {
 			}
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			{
@@ -1525,6 +1565,10 @@ public class ChooselifeProcedure {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
 			{
 				Entity _ent = entity;
 				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
@@ -1724,6 +1768,10 @@ public class ChooselifeProcedure {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
 			{
 				Entity _ent = entity;
 				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
@@ -1921,6 +1969,10 @@ public class ChooselifeProcedure {
 			}
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.LIFEGEM_2.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(GemsFabricModModItems.RESILIENCE_GEM.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			{
